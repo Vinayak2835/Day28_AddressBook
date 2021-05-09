@@ -26,7 +26,7 @@ public class CSVFileHandler {
                 .build();
         System.out.println("in CSVHandler: "+contactsList);
         statefulBeanToCsv.write(contactsList);
-        writer.close();
+         writer.close();
     }
 
 }
