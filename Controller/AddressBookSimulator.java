@@ -241,7 +241,7 @@ public class AddressBookSimulator {
      * initializes scanner class
      */
     public static ScannerForAddressBook initializeScanner(){
-        ScannerForAddressBook scannerForAddressBook = new ScannerForAddressBook();
+         ScannerForAddressBook scannerForAddressBook = new ScannerForAddressBook();
         return scannerForAddressBook;
     }
 }
