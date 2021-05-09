@@ -145,7 +145,7 @@ public class AddressBook {
             case 3:
                 String name1 = getName();
                 if (isContactExist(name1)) {
-                    Contacts contact = getContact(name1);
+                   Contacts contact = getContact(name1);
                     deleteContact(contact);
                 } else {
                     System.out.println("Contact does not exists!");
